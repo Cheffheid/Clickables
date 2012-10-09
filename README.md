@@ -26,3 +26,14 @@ To use
 			'class' : 'super-clickable'
 		});
 	</script>
+
+#### Box Shadow
+Chnages the default box shadow on click
+
+To use
+	
+	<script>
+		$('.class').clickables({
+			'boxShadow' : '1px 1px 3px #000'
+		});
+	</script>
