@@ -11,14 +11,14 @@
 		//init the plugin
 		init : function( options ) {
 			var settings = $.extend( {
-				'class' 		: 'clickable',					// Class name for css
+				'className' 	: 'clickable',					// Class name for css
 				'boxShadow'		: '1px 1px 3px #AAAAAA inset' 	// Box shadow styling for onlick
 			}, options );
 			
 			this.each( function() {
 				var z = $(this);
 				
-				z.addClass(settings.class); // Add class name for css
+				z.addClass(settings.className); // Add class name for css
 				
 				z.click( function(){ // On click 
 					z.css('box-shadow', settings.boxShadow); // Give inset box shadow
